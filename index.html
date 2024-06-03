@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="tuna.png">
     <title>Document</title>
 </head>
 <body>
-    <h1></h1>
+    <div id="header">
+        <div id="logo"><img src="tuna.png">Vetrov FM</div>
+        <div id="menu">
+            <span>Strona główna&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Odkryj&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Artyści</span>
+        </div>
+        <div id="search"></div>
+    </div>
+    <div id="main">
+        <div id="gallery"></div>
+        <div id="desc"></div>
+    </div>
+    <div id="player">
+        <div id="song"><img src="./R.jfif" alt="jest"><div class="opis"><h3>Tytuł utworu</h3><span>Wykonawca</span></div></div>
+        <div id="time"><input type="range" id="suwak" min="0" max="1"></div>
+        <div id="controls"><input type="submit" id="lewo" value="<<"><input type="submit" id="stop" value="<|"><input type="submit" id="prawo" value=">>"></div>
+    </div>
+    <div id="list">
+        
+    </div>
 </body>
 </html>
